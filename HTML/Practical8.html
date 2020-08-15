@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-8</title>
+    <style>
+        .container{
+            width: 1200px;
+            margin: 0px auto;
+            padding: 5px; 
+            
+         
+        }
+        #header{
+            width: 100%;
+            background-color: gray;
+            font-size: 20px;
+            color: white; 
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+           
+        }
+        #banner{
+            width: 100%;
+            font-size: 20px;
+            color: white;
+            position: relative;
+            padding-top: 10px;
+        }
+        .practical8{
+            position: absolute;
+            left: 16px;
+            top:8px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+            
+        .circle1{
+            background-color: goldenrod;
+            display: inline-block;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        #circles{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle2{
+            background-color: goldenrod;
+            display: inline-block;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .circle3{
+            background-color: goldenrod;
+            display: inline-block;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .circle4{
+            background-color: goldenrod;
+            display: inline-block;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        #content{
+            width: 100%;
+            height: 300px;
+        }
+        .left-bar{
+            float: left;
+            width: 50%;
+        }
+        .maincontent{
+            background-color: gray;
+            
+            color: white;
+            font-size: 30px;
+            height: 300px;
+        }
+        .right-bar{
+            float: right;
+            width: 50%;
+            height: 300px;
+        }
+        .Artical1{
+            display: flex;
+            color: black;
+            font-size: 30px;
+            height: 95px;margin-left: 10px;
+            margin-bottom: 10px;
+            position: relative;
+            font-weight: bold;
+        }
+        .Artical2{
+            display: flex;
+            color:black;
+            font-size: 30px;
+            height: 95px;margin-left: 10px;
+            margin-bottom: 10px;
+            position: relative;
+            font-weight: bold;
+        }
+        .Artical3{
+            display: flex;
+            color: black;
+            font-size: 30px;
+            height: 90px;margin-left: 10px;
+            margin-bottom: 10px;
+            position: relative;
+            font-weight: bold;
+        }
+        #cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card1{
+            background-color:lightgray;
+            width: 300px;
+            height: auto;
+            display: inline-block;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .card2{
+            background-color:lightgray;
+            width: 300px;
+            height: auto;
+            display: inline-block;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .card3{
+            background-color:lightgray;
+            width: 300px;
+            height: auto;
+            display: inline-block;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .card4{
+            background-color:lightgray;
+            width: 300px;
+            height: auto;
+            display: inline-block;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        #footer{
+            width: 100%;
+            background-color:plum;
+            font-size: 20px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70px;
+        }
+        #navbar {
+      list-style-type: none;
+      position: fixed;
+      background-color: gray;
+    }
+
+    ul#navbar li a {
+      display: inline-block;
+      color:white;
+      font-weight: bold;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+    ul#navbar li{
+        float: left;
+
+    }
+
+
+    ul#navbar li a:hover {
+      background-color: white;
+      color: black;
+    }
+    #box12:hover{
+            background-color: #2196f3;
+            color:gold;
+            box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3;
+    }
+         
+    html {
+  scroll-behavior: smooth;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <ul id="navbar">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#content">ABOUT US</a></li>
+                <li><a href="#circles">TEAM</a></li>
+                <li><a href="#content">TECHNOLOGIES</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </div>
+        <div id="banner">
+            <img src="../IMAGES/emile-perron-xrVDYZRGdw4-unsplash.jpg" style="width: 100%; ">
+            <div class="practical8">PRACTICAL-8</div>
+            
+        </div>
+        <h1 style="align-items: center;justify-content: center;display: flex;font-size: 30px;padding-top: 30px;padding-bottom: 0px;margin-bottom: 0;margin-top: 0;">TEAM MEMBERS</h1>
+        <div id="circles">
+            <div class="circle1">
+                <img src="../IMAGES/1.png" style="width: 100%; border-radius: 50%;">
+            </div>
+            <div class="circle2">
+                <img src="../IMAGES/2.png" style="width: 100%; border-radius: 50%;">
+            </div>
+            <div class="circle3">
+                <img src="../IMAGES/3.png" style="width: 100%; border-radius: 50%;">
+            </div>
+            <div class="circle4">
+                <img src="../IMAGES/9.png" style="width: 100%; border-radius: 50%;">
+            </div>
+        </div>
+        <h2 style="font-size: 30px;align-items: center;justify-content: center;display: flex;padding-top: 50px;padding-bottom: 0px;margin-bottom: 0;margin-top: 0;">ABOUT US</h2>
+        <div id="content">
+            <div class="left-bar">
+                <div class="maincontent">About Projects
+                    <p style="font-size: 20px;padding-left: 5px; padding-right: 5px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse totam necessitatibus doloribus dolor optio saepe, ad ut eaque. Id repellat non provident numquam recusandae pariatur fugiat sint. Recusandae vitae tempore eos, ab doloremque ullam nulla. Veritatis asperiores minima blanditiis possimus enim nulla placeat accusamus eligendi, reprehenderit quod, ut impedit doloribus incidunt. Dolore pariatur odio sapiente eius, ex nostrum iste ad excepturi, quis nesciunt necessitatibus quisquam, asperiores quasi atque voluptates. Culpa, aspernatur maxime corrupti dicta mollitia perspiciatis. Dolore libero, id debitis sapiente harum atque non, incidunt, minus ad esse iusto? Est dignissimos, earum accusamus</p>
+                </div>
+            </div>
+            <div class="right-bar">
+                <div class="Artical1">
+                    <img src="../IMAGES/p1.jpg" style="width: 100%; height: auto;">
+                    <div class="Project1" style="position: absolute;left: 250px;">Project-1</div>
+                </div>
+                <div class="Artical2">
+                    <img src="../IMAGES/p2.jpeg" style="width: 100%; height: 100%;">
+                    <div class="Project2" style="position: absolute; left: 250px;">Project-2</div>
+                </div>
+                <div class="Artical3">
+                    <img src="../IMAGES/p3.jpg" style="width: 100%; height: 100%;">
+                    <div class="Project3" style="position: absolute;left: 250px;">Project-3</div>
+                </div>
+            </div>
+        </div>
+        <h3 style="font-size: 30px;align-items: center;justify-content: center;display: flex;padding-top: 50px;padding-bottom: 0px;margin-bottom: 0;margin-top: 0;">TECHNOLOGIES USED</h3>
+            <div id="cards">
+                <div class="card1">
+                    <img src="../IMAGES/hintro.png" style="width: 100%; height:30% ;" >
+        <h1 style="font-size: 20px; text-align: center;">Introduction to HTML</h1>
+        <p style="padding-left: 5px; padding-right: 10px; font-size: 15px;">Lorem ipsum dolor sit amet consectetur! Magni, sed minima dolorem excepturi quaerat officia deserunt laudantium ad nesciunt sed minima deserunt laudantium ad nesciunt sed minima laudantium ad</p>
+        <div id="box12" onclick="location.href='https://kunalsingh777.github.io/Fullstack1-2020/h.html';" style="cursor: pointer; width: 100%; height: 15%; background-color:red ; display: flex;justify-content: center;align-items: center;border-radius: 10px;">Read More</div>
+                </div>
+                <div class="card2">
+                    <img src="../IMAGES/cintro.png" style="width: 100%; height:30% ;" >
+        <h1 style="font-size: 20px; text-align: center;">Introduction to CSS</h1>
+        <p style="padding-left: 5px; padding-right: 10px;font-size: 15px;">Lorem ipsum dolor sit amet consectetur! Magni, sed minima dolorem excepturi quaerat officia deserunt laudantium ad nesciunt sed minima deserunt laudantium ad nesciunt sed minima laudantium ad</p>
+        <div id="box12" onclick="location.href='https://kunalsingh777.github.io/Fullstack1-2020/c.html';" style="cursor: pointer;width: 100%; height: 15%; background-color:red ; display: flex;justify-content: center;align-items: center;border-radius: 10px;">Read More</div>
+                </div>
+                <div class="card3">
+                    <img src="../IMAGES/jintro.png" style="width: 100%; height:30% ;" >
+        <h1 style="font-size: 20px; text-align: center;">Introduction to JavaScript</h1>
+        <p style="padding-left: 5px; padding-right: 10px;font-size: 15px;">Lorem ipsum dolor sit amet consectetur! Magni, sed minima dolorem excepturi quaerat officia deserunt laudantium ad nesciunt sed minima deserunt laudantium ad nesciunt sed minima laudantium ad</p>
+        <div id="box12" onclick="location.href='https://kunalsingh777.github.io/Fullstack1-2020/j.html';" style="cursor: pointer;width: 100%; height: 15%; background-color:red ; display: flex;justify-content: center;align-items: center;border-radius: 10px;">Read More</div>
+                </div>
+                <div class="card4">
+                    <img src="../IMAGES/bintro.png" style="width: 100%; height:30% ;" >
+                    <h1 style="font-size: 20px; text-align: center;">Introduction to Bootstrap</h1>
+                    <p style="padding-left: 5px; padding-right: 10px;font-size: 15px;">Lorem ipsum dolor sit amet consectetur! Magni, sed minima dolorem excepturi quaerat officia deserunt laudantium ad nesciunt sed minima deserunt laudantium ad nesciunt sed minima laudantium ad</p>
+                    <div id="box12" onclick="location.href='https://kunalsingh777.github.io/Fullstack1-2020/b.html';" style="cursor: pointer;width: 100%; height: 15%; background-color:red ; display: flex;justify-content: center;align-items: center;border-radius: 10px;">Read More</div>
+                </div>
+            </div>
+            <h4 style="display: block;align-items: center;justify-content: center;display: flex;padding-top: 50px;padding-bottom: 0px;font-size: 30px;margin-bottom: 0;margin-top: 0;">CONTACT</h4>
+            <div id="footer">Website Template for Practical-8
+                <a href="#" >Back To Top</a>
+
+            </div>
+    </div>
+</body>
+</html>
