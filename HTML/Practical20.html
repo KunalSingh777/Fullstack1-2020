@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-20</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .my-container{
+           
+        }
+        .row1{
+            background-color: orange;
+            height: 70px;
+            margin: 20px 0;
+        }
+        .my-col1{
+            background-color: greenyellow;
+        }
+        .my-col2{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-container">
+        <div class="row row1">
+            <div class="col-lg col-md col-sm">Header</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 my-col1">.col-md-4</div>
+            <div class="col-md-4 offset-md-4">.col-md-4 .offset-md-4</div>
+          </div>
+    </div>
+</body>
+</html>
